@@ -1,0 +1,33 @@
+diff --git a/src/Controller/DefaultController.php b/src/Controller/DefaultController.php
+new file mode 100644
+index 0000000..bf97a8b
+--- /dev/null
++++ b/src/Controller/DefaultController.php
+@@ -0,0 +1,12 @@
++<?php
++
++namespace App\Controller;
++
++use App\Entity\FooEntity;
++
++class DefaultController
++{
++    public function hello(FooEntity $nonAutowireableClass)
++    {
++    }
++}
+diff --git a/src/Entity/FooEntity.php b/src/Entity/FooEntity.php
+new file mode 100644
+index 0000000..023324c
+--- /dev/null
++++ b/src/Entity/FooEntity.php
+@@ -0,0 +1,8 @@
++<?php
++
++namespace App\Entity;
++
++class FooEntity
++{
++
++}
+\ No newline at end of file

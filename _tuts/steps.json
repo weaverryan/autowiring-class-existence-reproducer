@@ -1,0 +1,25 @@
+{
+    "steps": [
+        {
+            "id": "start",
+            "name": "start",
+            "description": null
+        },
+        {
+            "id": "install-doctrine",
+            "name": "Install doctrine",
+            "description": null
+        },
+        {
+            "id": "create-autowiring-silent-failure",
+            "name": "Create autowiring silent failure",
+            "description": null
+        },
+        {
+            "id": "install-security-because-it-is-an-easy-way-to-see-the-container-rebuild",
+            "name": "Install security because it is an easy way to see the container rebuild",
+            "description": null
+        }
+    ],
+    "sha": "1e7a601547a9c1bb6a8c903ef7aa4748d03e37ee"
+}
